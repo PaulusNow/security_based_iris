@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 import mysql.connector
 import numpy as np
-import io
 import tensorflow as tf
 
 app = Flask(__name__)
